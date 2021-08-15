@@ -7,6 +7,9 @@ const AppProvider = ({ children }) => {
   const [loading, setLoading] = useState(false);
   const [searchTerm, setSearchTerm] = useState('a');
   const [cocktails, setCocktails] = useState([]);
+  const [favourites, setFavourites] = useState([]);
+
+  console.log(favourites);
 
   const fetchDrinks = useCallback(async () => {
     setLoading(true);
@@ -46,7 +49,9 @@ const AppProvider = ({ children }) => {
       value={{
         loading,
         cocktails,
+        favourites,
         setSearchTerm,
+        setFavourites,
       }}>
       {children}
     </AppContext.Provider>

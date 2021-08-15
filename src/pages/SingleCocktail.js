@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import { FaHeart } from 'react-icons/fa';
 import Loading from '../components/Loading';
 
 const url = 'https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=';
@@ -106,6 +107,13 @@ const SingleCocktail = () => {
             <span className='drink-data'>instructions: </span>
             {instructions}
           </p>
+          <button
+            type='button'
+            className='btn btn-primary btn-details'
+            style={{ marginTop: '140px' }}>
+            add to favorites
+            <FaHeart />
+          </button>
         </div>
       </div>
     </section>
