@@ -4,7 +4,6 @@ import Cocktail from './Cocktail';
 
 const CocktailList = () => {
   const { cocktails, loading } = useGlobalContext();
-  console.log(cocktails);
 
   if (loading) {
     return <Loading />;
@@ -13,7 +12,16 @@ const CocktailList = () => {
     return <h2 className='section-title'>No Cocktails Matched Your Search</h2>;
   }
 
-  return <div>Cocktail List Component</div>;
+  return (
+    <section className='section'>
+      <h2 className='section-title'>cocktails</h2>
+      <div className='cocktails-center'>
+        {cocktails.map(item => {
+          return <Cocktail key={item.id} {...item} />;
+        })}
+      </div>
+    </section>
+  );
 };
 
 export default CocktailList;
