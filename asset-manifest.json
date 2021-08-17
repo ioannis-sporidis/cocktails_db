@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/cocktails_db/static/css/main.59884292.chunk.css",
-    "main.js": "/cocktails_db/static/js/main.7cf3aea1.chunk.js",
-    "main.js.map": "/cocktails_db/static/js/main.7cf3aea1.chunk.js.map",
+    "main.js": "/cocktails_db/static/js/main.7bc50be1.chunk.js",
+    "main.js.map": "/cocktails_db/static/js/main.7bc50be1.chunk.js.map",
     "runtime-main.js": "/cocktails_db/static/js/runtime-main.26716cae.js",
     "runtime-main.js.map": "/cocktails_db/static/js/runtime-main.26716cae.js.map",
-    "static/js/2.36cfea6d.chunk.js": "/cocktails_db/static/js/2.36cfea6d.chunk.js",
-    "static/js/2.36cfea6d.chunk.js.map": "/cocktails_db/static/js/2.36cfea6d.chunk.js.map",
+    "static/js/2.a4273d3e.chunk.js": "/cocktails_db/static/js/2.a4273d3e.chunk.js",
+    "static/js/2.a4273d3e.chunk.js.map": "/cocktails_db/static/js/2.a4273d3e.chunk.js.map",
     "index.html": "/cocktails_db/index.html",
     "static/css/main.59884292.chunk.css.map": "/cocktails_db/static/css/main.59884292.chunk.css.map",
-    "static/js/2.36cfea6d.chunk.js.LICENSE.txt": "/cocktails_db/static/js/2.36cfea6d.chunk.js.LICENSE.txt",
+    "static/js/2.a4273d3e.chunk.js.LICENSE.txt": "/cocktails_db/static/js/2.a4273d3e.chunk.js.LICENSE.txt",
     "static/media/logo.5bb3b58e.svg": "/cocktails_db/static/media/logo.5bb3b58e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.26716cae.js",
-    "static/js/2.36cfea6d.chunk.js",
+    "static/js/2.a4273d3e.chunk.js",
     "static/css/main.59884292.chunk.css",
-    "static/js/main.7cf3aea1.chunk.js"
+    "static/js/main.7bc50be1.chunk.js"
   ]
 }
