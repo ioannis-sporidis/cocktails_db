@@ -13,7 +13,7 @@ const Navbar = () => {
             <Link to='/'>Home</Link>
           </li>
           <li>
-            <Link to='/favourites'>Favourites</Link>
+            <Link to='/favourites'>Favorites</Link>
           </li>
         </ul>
       </div>

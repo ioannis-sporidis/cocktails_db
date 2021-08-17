@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { FaHeart } from 'react-icons/fa';
+// import { FaHeart } from 'react-icons/fa';
 
 const Cocktail = ({ id, image, name, info, glass }) => {
   return (
@@ -14,9 +14,10 @@ const Cocktail = ({ id, image, name, info, glass }) => {
         <Link to={`/cocktail/${id}`} className='btn btn-primary btn-details'>
           details
         </Link>
-        <button type='button' className='btn btn-primary btn-details'>
+        {/* Add to favorite button - Add functionality */}
+        {/* <button type='button' className='btn btn-primary btn-details'>
           <FaHeart />
-        </button>
+        </button> */}
       </div>
     </article>
   );

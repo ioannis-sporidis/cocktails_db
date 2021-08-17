@@ -1,9 +1,9 @@
 import { useGlobalContext } from '../helpers/context';
 import Loading from '../components/Loading';
-import Cocktail from '../components/Cocktail';
+// import Cocktail from '../components/Cocktail';
 
-const Favourites = () => {
-  const { favourites, loading } = useGlobalContext();
+const Favorites = () => {
+  const { loading } = useGlobalContext();
 
   if (loading) {
     return <Loading />;
@@ -11,14 +11,14 @@ const Favourites = () => {
 
   return (
     <section className='section'>
-      <h2 className='section-title'>cocktails</h2>
-      <div className='cocktails-center'>
+      <h2 className='section-title'>Under Construction</h2>
+      {/* <div className='cocktails-center'>
         {favourites.map(item => {
           return <Cocktail key={item.id} {...item} />;
         })}
-      </div>
+      </div> */}
     </section>
   );
 };
 
-export default Favourites;
+export default Favorites;

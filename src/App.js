@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home';
-import Favourites from './pages/Favourites';
+import Favorites from './pages/Favorites';
 import SingleCocktail from './pages/SingleCocktail';
 import Error from './pages/Error';
 import Navbar from './components/Navbar';
@@ -13,8 +13,8 @@ function App() {
         <Route exact path='/'>
           <Home />
         </Route>
-        <Route path='/favourites'>
-          <Favourites />
+        <Route path='/favorites'>
+          <Favorites />
         </Route>
         <Route path='/cocktail/:id'>
           <SingleCocktail />

@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import { useGlobalContext } from '../helpers/context';
 import { FaHeart } from 'react-icons/fa';
 import Loading from '../components/Loading';
 
@@ -9,6 +10,8 @@ const SingleCocktail = () => {
   const { id } = useParams();
   const [isLoading, setIsLoading] = useState(false);
   const [cocktail, setCocktail] = useState(null);
+
+  const { addToFav } = useGlobalContext();
 
   useEffect(() => {
     setIsLoading(true);
@@ -110,7 +113,8 @@ const SingleCocktail = () => {
           <button
             type='button'
             className='btn btn-primary btn-details'
-            style={{ marginTop: '140px' }}>
+            style={{ marginTop: '140px' }}
+            onClick={() => addToFav(id)}>
             add to favorites
             <FaHeart />
           </button>
