@@ -9,5 +9,8 @@ Click [here](https://ioannis-sporidis.github.io/ra-cocktails-db/) to check out t
 - [React Router](https://reactrouter.com/)
 - [NPM gh-pages](https://www.npmjs.com/package/gh-pages)
 
+## API
+[TheCocktailDB](https://thecocktaildb.com/api.php)
+
 ## Next Steps
 - Implement "save to favorites" function (using local storage)
