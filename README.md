@@ -7,7 +7,7 @@ Click [here](https://ioannis-sporidis.github.io/ra-cocktails-db/) to check out t
 - [React](https://reactjs.org/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [React Router](https://reactrouter.com/)
-- [NPM gh-pages](https://www.npmjs.com/package/gh-pages)
+- [NPM Github Pages](https://www.npmjs.com/package/gh-pages)
 
 ## API
 [TheCocktailDB](https://thecocktaildb.com/api.php)
