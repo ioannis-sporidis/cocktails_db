@@ -1,6 +1,6 @@
 # Cocktails DB
 
-Click [here](https://ioannis-sporidis.github.io/ra-cocktails-db/) to check out the app
+Check out the app [here](https://ioannis-sporidis.github.io/ra-cocktails-db/)
 
 ## Dependencies
 
